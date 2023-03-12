@@ -61,6 +61,7 @@ const NavBar = ({dados, onLocationClick, userLocationClick, temp}) => {
                 setImg(Sleet);
                 break;
               default:
+                setImg(HeavyCloud);
                 break;
             }
           }
