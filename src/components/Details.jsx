@@ -14,7 +14,7 @@ const Details = ({dados}) => {
                     </div>
 
                     <div className={style.details_card}>
-                        <h2>Humidade</h2>
+                        <h2>umidade</h2>
                         <p>{dados.current.humidity}<span>%</span></p>
                     </div>
 
