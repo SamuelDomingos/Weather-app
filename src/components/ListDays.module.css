@@ -1,0 +1,33 @@
+.days_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 180px;
+    background-color: var(--colorBackground);
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.days_card p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.days_card .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp p{
+    margin: 0 .5rem;
+}
+
+.temp p:nth-child(2){
+    color: #6e707a;
+    font-weight: 500;
+}

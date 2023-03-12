@@ -1,0 +1,28 @@
+.details_card{
+    flex: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: .8rem;
+    max-width: 350px;
+    min-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--colorBackground);
+}
+
+.details_card h2{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.details_card p {
+    font-size: 5rem;
+}
+
+.details_card p span{
+    color: #6e707a;
+    font-size: 2rem;
+}
