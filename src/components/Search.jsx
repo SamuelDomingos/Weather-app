@@ -41,7 +41,7 @@ const Search = ({onClose, onLocationClick}) => {
         <div className={style.list}>
             {data && data.length > 0 ? (
                 data.map((item) => (
-                    <button onClick={() => onLocationClick(item.name)} className={style.nameLocation}>{item.name}</button>
+                    <button onClick={() => onLocationClick(item.name)} className={style.nameLocation}>{item.name} - {item.region}</button>
                 ))
             ) : (
                 <p>Sem localização</p>
